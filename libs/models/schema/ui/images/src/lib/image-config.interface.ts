@@ -1,4 +1,4 @@
-interface ImageConfig {
+export interface ImageConfig {
   title: string
   imageSrc: string
   visualisation: ImageVisualisation

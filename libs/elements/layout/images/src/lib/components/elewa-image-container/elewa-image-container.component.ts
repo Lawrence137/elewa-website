@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ImageConfig } from '@elewa-website/models/schema/ui/images';
 
 @Component({
   selector: 'elewa-website-elewa-image-container',
