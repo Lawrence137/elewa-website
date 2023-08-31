@@ -66,6 +66,14 @@ export const ELEWA_WEBSITE_ROUTES: Route[] = [
         (m) => m.BookletsPageModule
       ),
   },
+
+  {
+    path: 'images',
+    loadChildren: () =>
+      import('@elewa-website/elements/layout/images').then(
+        (m) => m.ImagesModule
+      ),
+  },
 ];
 
 @NgModule({
