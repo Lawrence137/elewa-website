@@ -1,1 +1,5 @@
-<p>elewa-image-container works!</p>
+<div [style.maxWidth]="config.maxWidth">
+    <img [src]="config.imageSrc" [alt]="config.title" [ngStyle]="getVisualisationStyle()" style="max-width: 100%" />
+    <h2>{{ config.title }}</h2>
+  </div>
+  
